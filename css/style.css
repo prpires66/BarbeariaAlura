@@ -1,6 +1,6 @@
 header {
   background-color: #bbbbbb;
-  padding: 20px 0;
+  padding: 0;
 }
 main {
   background: #FFFFFF;
@@ -20,6 +20,9 @@ em {
 }
 #bunner {
   width: 100%;
+}
+.itens {
+font-size: 22px;
 }
 .caixa {
   position: relative;
@@ -79,19 +82,22 @@ nav a:hover {
 
 .itens {
   font-style: italic;
+  list-style-type: disclosure-closed;
 }
 .beneficios {
   background: #FFFFFF;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 .beneficios ul {
   display: inline-block;
   vertical-align: top;
   width: 20%;
   margin-right: 15%;
+  margin-left: 5%;
 }
 .imagembeneficios {
-  width: 50%;
+  width: 45%;
+  border-radius: 0 70px 0 70px;
 }
 .produtos {
   width: 940px;
@@ -134,10 +140,15 @@ border-color: #C78C19;
 footer {
   text-align: center;
   background: url("../imagens/bg.jpg");
-  padding: 40px 0;
+  padding: 0;
   }
+ footer img {
+  width: 10%;
+  height: auto;
+ } 
 .copyright {
   color: #fff;
   font-size: 14px;
-  margin: 20px 0;
+  margin: 0;
+  padding-bottom: 20px;
 }
