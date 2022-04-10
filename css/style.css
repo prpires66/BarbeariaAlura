@@ -139,7 +139,7 @@ nav a:hover {
   text-align: center;
   width: 30%;
   vertical-align: top;
-  margin: 0 1.5%;
+  margin: 1.5% 1.5%;
   padding: 30px 20px;
   box-sizing: border-box;
   border: 2px solid #000;
@@ -245,16 +245,21 @@ td,th {
 }
 
 @media screen and (max-width: 480px) {
-  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .beneficios .video, section.mapa {
+  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .beneficios .video, section.mapa, .produtos,.produtos li, .contato {
     width: auto;
-    padding: 0;
+    padding: 5px;
   }
   h1 {
     text-align: center;
   }
   nav {
     position: static;
-    padding-bottom: 10px;;  
+    padding-bottom: 5px;
+
+  }
+  nav a, nav ul {
+    font-size: 18px;
+    text-align: center;
   }
   .lista-beneficios, .imagem-beneficios {
     width: 100%;
@@ -265,6 +270,15 @@ td,th {
   }
   .mapa {
     padding: 1em 0;
+  }
+  .produtos li {
+    display: block;
+  }
+  .principal p {
+    line-height: 1.5em;
+  }
+  .input-padrao {
+    width: 85%;    
   }
   footer img {
     width: 20%;
